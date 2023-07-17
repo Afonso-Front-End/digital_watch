@@ -50,7 +50,6 @@ main {
 
 .card {
     width: 200px;
-
 }
 
 #hora,
@@ -62,12 +61,8 @@ main {
     font-weight: 200;
 }
 
-#minutos {
-    height: 180px;
-}
 
 #segundos {
-    height: 160px;
     background-color: #FC006C;
 }
 
