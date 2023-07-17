@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    color: #FDFDFD;
 }
 
 body,
@@ -25,7 +26,7 @@ body {
 }
 
 h1 {
-    color: #FDFDFD;
+
     font-size: 3rem;
     text-transform: capitalize;
     font-weight: 400;
@@ -44,8 +45,7 @@ main {
     align-items: end;
     justify-content: flex-end;
     gap: 10px;
-    color: #FDFDFD;
-    position: relative;
+
 }
 
 .card {
@@ -61,17 +61,12 @@ main {
     font-weight: 200;
 }
 
-
-#segundos {
+#segundos ,.pink {
     background-color: #FC006C;
 }
 
 .blue {
     background-color: #2181d4;
-}
-
-.pink {
-    background-color: #FC006C;
 }
 
 .title {
@@ -85,13 +80,14 @@ main {
 
 .AM-PM {
     background-color: #FDFDFD;
-    color: #10101A;
     width: 80px;
     height: 40px;
     font-weight: 400;
     letter-spacing: 2px;
     font-size: 1.5rem;
-
+}
+.AM-PM > p{
+    color: #10101A;
 }
 
 @media screen and (max-width:650px) {
