@@ -9,7 +9,11 @@
 
 body,
 .title,
-.AM-PM {
+.AM-PM,
+.caixa,
+#hora,
+#minutos,
+#segundos {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,10 +41,8 @@ main {
 }
 
 .caixa {
-    display: flex;
-    justify-content: flex-end;
     align-items: end;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 10px;
     color: #FDFDFD;
     position: relative;
@@ -55,9 +57,6 @@ main {
 #minutos,
 #segundos {
     height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-size: 4.5rem;
     background-color: #2393F2;
     font-weight: 200;
@@ -81,7 +80,6 @@ main {
 }
 
 .title {
-
     border-top: 1px solid rgba(0, 0, 0, 0.349);
     height: 45px;
     font-size: 1.2rem;
@@ -95,7 +93,6 @@ main {
     color: #10101A;
     width: 80px;
     height: 40px;
-
     font-weight: 400;
     letter-spacing: 2px;
     font-size: 1.5rem;
