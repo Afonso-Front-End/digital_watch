@@ -43,9 +43,7 @@ main {
 
 .caixa {
     align-items: end;
-    justify-content: flex-end;
     gap: 10px;
-
 }
 
 .card {
