@@ -2,7 +2,7 @@
 
 Este é um simples projeto de relógio digital desenvolvido em [HTML CSS JS] que exibe a hora atual de forma digital. É uma aplicação minimalista que mostra a hora em um formato fácil de ler.
 
-![Captura de Tela do Relógio Digital](screenshot)
+![Captura de Tela do Relógio Digital](screenshot/imagem1.png)
 
 ## Funcionalidades Principais
 
